@@ -15,5 +15,10 @@ The fields we were interested were:
 AreaID : CrimeID : Age : Gender : Race
 
 AreadID is an integer from 1 to 21 representing the 21 police departments located in Los Angeles, CA.
-CrimeID is a code used to indicate the type of crime committed.
-Age refers to the age of the victim of the crime.
+CrimeID is a code used to indicate the type of crime committed - integer.
+Age refers to the age of the victim of the crime - integer.
+Gender: a character - M (Male) or F (Female)
+Race: a character code - W for white, etc
+
+We wrote `make_data_file.py` to parse the original csv file from data.gov and select only the fields we were interested in. We also converted all 5 fields to floating point values (see the code).
+
