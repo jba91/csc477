@@ -33,6 +33,20 @@ We wrote `make_data_file.py` to parse the original csv file from data.gov and se
 101620051,11/11/2010,11/07/2010,1600,16,Foothill,1641,510,VEHICLE - STOLEN,,,,,101,STREET,,,IC,Invest Cont,510,,,,EL DORADO,TRUESDALE,"(34.241, -118.3987)"
 101910498,04/07/2010,04/07/2010,1600,19,Mission,1902,510,VEHICLE - STOLEN,,,,,101,STREET,,,IC,Invest Cont,510,,,,GLENOAKS,DRELL,"(34.3147, -118.4589)"`
 
+our Python program converts the above to the following:
+
+`
+AreaID,CrimeID,Age,Gender,Race
+1.0,110.0,49.0,1.0,17.0
+1.0,110.0,58.0,0.0,2.0
+1.0,121.0,15.0,1.0,17.0
+1.0,121.0,25.0,1.0,17.0
+1.0,121.0,28.0,1.0,2.0
+1.0,121.0,40.0,1.0,7.0
+1.0,122.0,24.0,1.0,7.0
+1.0,210.0,21.0,1.0,7.0
+1.0,210.0,21.0,1.0,7.0
+`
 
 
 
