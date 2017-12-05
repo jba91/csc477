@@ -35,9 +35,13 @@ We wrote `make_data_file.py` to parse the original csv file from data.gov and se
 
 our Python program converts the above to the following:
 
-`| AreaID | CrimeID | Age  | Gender | Race |
+```
+| AreaID | CrimeID | Age  | Gender | Race |
 | 1.0    | 110.0   | 49.0 | 1.0    | 17.0 |
 | 1.0,   | 110.0   | 58.0 | 0.0    | 2.0  |
 | 1.0    | 121.0   | 15.0 | 1.0    | 17.0 |
-| 1.0    | 121.0,  | 5.0  | 1.0    | 17.0 |`
+| 1.0    | 121.0,  | 5.0  | 1.0    | 17.0 |
+```
+
+
 
