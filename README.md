@@ -47,5 +47,9 @@ AreaID,CrimeID,Age,Gender,Race
 1.0,121.0,40.0,1.0,7.0
 ```
 
+Note all the numerical values in the new file are floating point numbers.
+
+
+
 
 
